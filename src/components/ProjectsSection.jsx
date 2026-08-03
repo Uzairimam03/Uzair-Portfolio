@@ -42,6 +42,16 @@ const projects = [
     demoUrl: "https://tmdb-movieapp-react.netlify.app/",
     githubUrl: "https://github.com/Uzairimam03/React-Movie-App",
   },
+   {
+    id: 5,
+    title: "Notes App (Mobile)",
+    description:
+      "A simple notes app built with React Native. It allows users to create, read, update, and delete notes and store them into database.",
+    image: "/projects/project5.png",
+    tags: ["React-Native", "Typescript", "Appwrite"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Uzairimam03/RN_Notes_App",
+  },
 ];
 
 export const ProjectsSection = () => {
