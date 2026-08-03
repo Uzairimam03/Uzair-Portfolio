@@ -12,18 +12,18 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              Uzair
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              Imam
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+            I build modern, scalable web applications using the MERN stack. My
+            focus is on developing clean, efficient, and maintainable solutions
+            with a strong emphasis on backend development and user experience.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

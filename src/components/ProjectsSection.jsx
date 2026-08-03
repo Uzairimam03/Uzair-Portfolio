@@ -3,32 +3,44 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "LMS SaaS App",
+    description:
+      "A full-stack AI-powered LMS SaaS with subscriptions, payments, and real-time voice tutoring.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Next.js", "TailwindCSS", "Supabase"],
+    demoUrl: "https://saas-app-2aho.vercel.app/",
+    githubUrl: "https://github.com/Uzairimam03/saas-app",
   },
+
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "School Management App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A full-stack School Management System with student, teacher, attendance, and academic management.",
+    image: "/projects/project4.png",
+    tags: ["Expo", "Typescript", "Node.js"],
+    demoFiles: "",
+    githubUrl: "https://github.com/Uzairimam03/School-Mangement-App",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Realtime Chat App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A secure real-time chat application with seamless communication and live messaging.",
+    image: "/projects/project2.png",
+    tags: ["React", "Node.js", "Socket.IO"],
+    demoUrl: "https://realtime-chat-app-ten-alpha.vercel.app/login",
+    githubUrl: "https://github.com/Uzairimam03/Realtime_Chat_App",
+  },
+  {
+    id: 4,
+    title: "Movie App",
+    description:
+      "A fast, responsive movie app featuring real-time search and TMDB integration.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "Appwrite"],
+    demoUrl: "https://tmdb-movieapp-react.netlify.app/",
+    githubUrl: "https://github.com/Uzairimam03/React-Movie-App",
   },
 ];
 
@@ -63,7 +75,10 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -100,7 +115,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Uzairimam03"
           >
             Check My Github <ArrowRight size={16} />
           </a>
