@@ -19,7 +19,8 @@ const projects = [
       "A full-stack School Management System with student, teacher, attendance, and academic management.",
     image: "/projects/project4.png",
     tags: ["Expo", "Typescript", "Node.js"],
-    demoFiles: "https://drive.google.com/drive/folders/1G4lDLoP905GCu7Z47o-GEfxYtq4Wj3C_?usp=sharing",
+    demoUrl:
+      "https://drive.google.com/drive/folders/1G4lDLoP905GCu7Z47o-GEfxYtq4Wj3C_?usp=sharing",
     githubUrl: "https://github.com/Uzairimam03/School-Mangement-App",
   },
   {
@@ -42,7 +43,7 @@ const projects = [
     demoUrl: "https://tmdb-movieapp-react.netlify.app/",
     githubUrl: "https://github.com/Uzairimam03/React-Movie-App",
   },
-   {
+  {
     id: 5,
     title: "Notes App (Mobile)",
     description:
