@@ -19,7 +19,7 @@ const projects = [
       "A full-stack School Management System with student, teacher, attendance, and academic management.",
     image: "/projects/project4.png",
     tags: ["Expo", "Typescript", "Node.js"],
-    demoFiles: "",
+    demoFiles: "https://drive.google.com/drive/folders/1G4lDLoP905GCu7Z47o-GEfxYtq4Wj3C_?usp=sharing",
     githubUrl: "https://github.com/Uzairimam03/School-Mangement-App",
   },
   {
